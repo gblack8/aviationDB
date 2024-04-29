@@ -1,0 +1,51 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh; /* Increased height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin); /* Increased font size */
+  color: white;
+  padding-top: 20px; /* Added padding to top */
+}
+
+.App-header input, .App-header button {
+  margin: 10px; /* Increased margin */
+  padding: 8px 16px; /* Increased padding */
+  font-size: 16px; /* Increased font size */
+}
+
+.page2-content {
+  margin-top: 40px; /* Added margin to top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.airplane-images {
+  margin-bottom: 20px;
+}
+
+.airplane-images img {
+  width: 200px;
+  margin: 10px;
+}
+
+.page2-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  margin: 10px; /* Increased margin */
+  padding: 12px 24px; /* Increased padding */
+  font-size: 18px; /* Increased font size */
+}
