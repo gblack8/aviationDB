@@ -177,4 +177,4 @@ def calculate_weight_and_balance(pilot_weight :int, passenger_weights:int, bagga
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
